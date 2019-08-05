@@ -30,3 +30,4 @@ function show_company_brand(){
 add_action('wp_head', 'show_company_brand');
 
 require_once 'backend/lq_cpt_libros.php';
+require_once 'backend/lq_mtbox_libros.php';
